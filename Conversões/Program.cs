@@ -36,17 +36,21 @@ namespace Conversões
             #endregion
 
             #region Parse
+            /*
             string txtnumero = "1985";
 
             int numero = int.Parse(txtnumero);
+            */
             #endregion
 
             #region Convert
+            /*
             string texto = Convert.ToString(2500);
 
             double num1 = Convert.ToDouble(false);//aparece 0
 
             int num2 = Convert.ToInt32('C');//aparece o codigo decimal da letra
+            */
             #endregion
         }
     }
