@@ -1,0 +1,77 @@
+Index: Tipos de array/appsettings.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Tipos de array/appsettings.json b/Tipos de array/appsettings.json
+new file mode 100644
+--- /dev/null	(date 1629015546238)
++++ b/Tipos de array/appsettings.json	(date 1629015546238)
+@@ -0,0 +1,10 @@
++{
++  "Logging": {
++    "LogLevel": {
++      "Default": "Information",
++      "Microsoft": "Warning",
++      "Microsoft.Hosting.Lifetime": "Information"
++    }
++  },
++  "AllowedHosts": "*"
++}
+Index: Tipos de array/appsettings.Development.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Tipos de array/appsettings.Development.json b/Tipos de array/appsettings.Development.json
+new file mode 100644
+--- /dev/null	(date 1629015546243)
++++ b/Tipos de array/appsettings.Development.json	(date 1629015546243)
+@@ -0,0 +1,9 @@
++{
++  "Logging": {
++    "LogLevel": {
++      "Default": "Information",
++      "Microsoft": "Warning",
++      "Microsoft.Hosting.Lifetime": "Information"
++    }
++  }
++}
+Index: Tipos de array/Properties/launchSettings.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Tipos de array/Properties/launchSettings.json b/Tipos de array/Properties/launchSettings.json
+new file mode 100644
+--- /dev/null	(date 1629015546232)
++++ b/Tipos de array/Properties/launchSettings.json	(date 1629015546232)
+@@ -0,0 +1,28 @@
++{
++  "iisSettings": {
++    "windowsAuthentication": false,
++    "anonymousAuthentication": true,
++    "iisExpress": {
++      "applicationUrl": "http://localhost:25827",
++      "sslPort": 44338
++    }
++  },
++  "profiles": {
++    "IIS Express": {
++      "commandName": "IISExpress",
++      "launchBrowser": true,
++      "environmentVariables": {
++        "ASPNETCORE_ENVIRONMENT": "Development"
++      }
++    },
++    "Tipos_de_array": {
++      "commandName": "Project",
++      "dotnetRunMessages": "true",
++      "launchBrowser": true,
++      "applicationUrl": "https://localhost:5001;http://localhost:5000",
++      "environmentVariables": {
++        "ASPNETCORE_ENVIRONMENT": "Development"
++      }
++    }
++  }
++}
