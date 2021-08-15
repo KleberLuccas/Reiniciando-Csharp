@@ -1,10 +1,11 @@
-  <h1>Conversão implícita</h1>
-<p>Conversão direta de um tipo inferior para um tipo superior<br>Sem chance de perder dados</p>
-<h3>Exemplo</h3>
-<p>
-    byte num1 = 100;  //<b>var num1 valendo<b/> 100<br>
-    ushort num2;  //<b>var num2 sem valor</b><br>
-    num2 = num1;  //<b>var num2 recebe num1</b><br><br>
-    Cosole.WriteLine(num2);<br> 
-    <h3>debug: 100<h3>
-</p>
+<h1> Conversão Implícita </h1>
+<p> Converter um tipo inferior para um superior sem perda de dado.</p>
+
+<h1> Conversão Explícita </h1>
+<p> Converter um tipo superior em um inferior com possível perda de dados. </p>
+
+<h1> Metodo Parse</h1>
+<p> Converte texto numerico em numero.</p>
+
+<h1> Metodo Convert</h1>
+<p> Converte número em texto ou boolean em numero. </p>
